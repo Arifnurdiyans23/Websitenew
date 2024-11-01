@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outing Akzonobel 2022</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('pantai.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        header {
+            padding: 20px;
+            background-color: #4400ff;
+            color: white;
+        }
+        nav a {
+            margin: 15px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Background Sound -->
+    <audio autoplay loop controls>
+        <source src="suara pantai.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <header>
+        <h1>Outing Akzonobel 2022</h1>
+        <h1>Anyer, 24 - 25 November 2022</h1>
+    </header>
+
+    <!-- Navigation Links -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="bullet numbering.html">Travel Checklist</a>
+        <a href="tabel.html">Holiday Budget</a>
+    </nav>
+
+    <!-- Image and Video -->
+    <section>
+        <img src="holiday.jpg" alt="Holiday Destination" style="width:80%; max-width:500px; margin-top:20px;">
+        <p>Good Team Stick Together!</p>
+        
+        <video width="80%" controls>
+            <source src="holiday.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Watch this video to see more!</p>
+    </section>
+
+</body>
+</html>

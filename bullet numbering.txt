@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Checklist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('pantai.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #4CAF50;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        ul {
+            text-align: left;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        header {
+            padding: 20px;
+            background-color: #4400ff;
+            color: white;
+        }
+        nav a {
+            margin: 15px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Travel Checklist</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="bullet numbering.html">Travel Checklist</a>
+        <a href="tabel.html">Holiday Budget</a>
+    </nav>
+
+    <h2>My Travel Essentials</h2>
+    <ul>
+        <li>Paspor & Dokumen Perjalanan</li>
+        <li>Pakaian & Perlengkapan Mandi</li>
+        <li>Kotak Pertolongan Pertama</li>
+        <li>Elektronik & Pengisi Daya</li>
+        <li>Makanan Ringan & Air</li>
+    </ul>
+
+</body>
+</html>
